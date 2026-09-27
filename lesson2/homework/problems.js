@@ -3,12 +3,11 @@
 // Print their quotient and remainder on separate lines.
 const num1 = "15";
 const num2 = "7";
-const quotient = "2";
 const remainder = "1";
-console.log (num1 + "/" + num2)
+let quotient = Math.trunc(15/7)
 console.log (quotient)
+console.log (num1 % num2)
 console.log (remainder)
-
 // Problem 2
 // Create variables for your favorite animal and favorite color.
 // Print a sentence combining them like: "A blue tiger would be awesome!"
@@ -31,7 +30,7 @@ while (count < 12) {
 // Create a variable for how many push-ups you can do.
 // Multiply it by 7 and print how many you could do in a week.
 pushUpCount = 4
-console.log (pushUpCount + "*" + "7" + "=" + "28")
+console.log (pushUpCount * 7)
 
 // Problem 5
 // Use a for loop to print the square of each number from 1 to 6.
