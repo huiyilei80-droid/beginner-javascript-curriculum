@@ -2,7 +2,11 @@
 // Create a list of 4 car brands.
 // Print the first and last.
 // Then add another brand using push() and print the updated list.
+let cars = ["toyota", "ferrari", "mercedes-benz", "tesla"]
+console.log (cars[3, 0])
+console.log (cars[0, 3])
 
+push(
 
 
 // Problem 2
