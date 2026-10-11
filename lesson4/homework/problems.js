@@ -47,14 +47,12 @@ console.log(languages);
 // Create a list of 6 passwords.
 // Print the one in the middle using length.
 // Then remove the first password in the list and print it.
+let passwords = ["2653", "90oi", "7897", "ty84", "980t", "743j"]
 
+console.log (passwords[passwords.length - 3]); 
+passwords.shift()
 
-
-
-
-
-
-
+console.log (passwords)
 
 
 
