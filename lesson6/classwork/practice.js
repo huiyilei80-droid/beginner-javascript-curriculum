@@ -28,11 +28,24 @@ function countUp() {
 countUp(); 
 
 // Problem 4
-// Use a while loop to print the worJavaScript" 4 times.
+// Use a while loop to print the word "JavaScript" 4 times.
+let i = 1; 
+
+while (i < 5) {
+  console.log("JavaScript");
+  i++;
+}
 
 
 
 // Problem 5
 // Create a list of your three favorite animals.
 // Use a while loop to print each animal with the text "is awesome!" after it.
+const My_Top_3_Favorite_Animals = ["Orcas", "Dragons", "Chickens"]
+let i = 0;
+
+while (i < animals.length) {
+  console.log(animals[i] + " are awesome!");
+  i++;
+}
 
