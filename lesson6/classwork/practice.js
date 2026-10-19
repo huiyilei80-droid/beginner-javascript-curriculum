@@ -18,14 +18,17 @@ getSum();
 // Problem 3
 // Create a global counter starting at 0.
 // Write a function that increases it by 1 and prints it.
+let global_counter = 0; 
 
+function countUp() {
+    global_counter = global_counter + 1;
+    console.log(global_counter);
+}
 
-
-
-
+countUp(); 
 
 // Problem 4
-// Use a while loop to print the word "JavaScript" 4 times.
+// Use a while loop to print the worJavaScript" 4 times.
 
 
 
