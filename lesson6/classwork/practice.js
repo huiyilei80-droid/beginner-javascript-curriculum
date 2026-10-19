@@ -21,6 +21,9 @@ getSum();
 
 
 
+
+
+
 // Problem 4
 // Use a while loop to print the word "JavaScript" 4 times.
 
